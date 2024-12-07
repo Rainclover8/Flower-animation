@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffe1e1, #ffcccc);
+  font-family: "Arial", sans-serif;
+  overflow: hidden; /* Sayfa kaymasını önler */
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 80%; /* Çiçek daha büyük görünecek */
+  height: auto;
+  overflow: visible;
+}
